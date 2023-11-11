@@ -7,7 +7,6 @@ import androidx.compose.ui.Modifier
 import theme.AppTheme
 import ui.components.AppBar
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Screen() {
     AppTheme {
