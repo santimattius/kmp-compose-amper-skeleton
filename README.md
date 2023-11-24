@@ -1,4 +1,4 @@
-# kmp-first-amper
+# KMP Compose Skeleton using Amper
 Basic Compose Multiplaform app using [Amper](https://github.com/JetBrains/amper/tree/main)
 
 ![amper-kmp](https://github.com/santimattius/kmp-first-amper/assets/22333101/6f16c218-4def-45a1-a1d1-a5e2b5dacdd6)
