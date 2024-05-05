@@ -1,18 +1,18 @@
 # Have feedback? Share it here https://surveys.jetbrains.com/s3/Amper-feedback-form
 
 product:
-  type: lib
-  platforms: [jvm, android, iosArm64, iosSimulatorArm64, iosX64]
+	type: lib
+	platforms: [jvm, android, iosArm64, iosSimulatorArm64, iosX64]
 
 dependencies:
-  - $compose.foundation: exported
-  - $compose.material3: exported
+	- $compose.foundation: exported
+	- $compose.material3: exported
 
 dependencies@android:
-  # Compose integration with Android activities
-  - androidx.activity:activity-compose:1.7.2: exported
-  - androidx.appcompat:appcompat:1.6.1: exported
+		# Compose integration with Android activities
+	- $libs.activity.compose: exported
+	- $libs.appcompat: exported
 
 settings:
-  compose:
-    enabled: true
+	compose:
+		enabled: true

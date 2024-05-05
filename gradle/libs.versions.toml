@@ -1,0 +1,10 @@
+[versions]
+
+activityCompose = "1.7.2"
+appCompat = "1.6.1"
+
+[libraries]
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appCompat" }
+
+[plugins]
