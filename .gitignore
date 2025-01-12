@@ -1,5 +1,6 @@
 .gradle
 /ios-app/build/
+/android-app/build/
 /shared/build/
 .kotlin
 .idea
